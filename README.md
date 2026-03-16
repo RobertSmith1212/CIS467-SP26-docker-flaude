@@ -183,6 +183,18 @@ ETag: "69b461d5-4f7b"
 Cache-Control: no-cache, must-revalidate
 Accept-Ranges: bytes
 ```
+```
+HTTP/1.1 200 OK
+Server: nginx/1.29.5
+Date: Mon, 16 Mar 2026 21:45:39 GMT
+Content-Type: video/mp4
+Content-Length: 4767395
+Last-Modified: Mon, 16 Mar 2026 18:20:57 GMT
+Connection: keep-alive
+ETag: "69b84a09-48bea3"
+Cache-Control: public, max-age=31536000, immutable
+Accept-Ranges: bytes
+```
 
 ### 2.1 - Reflection Question
 > Why would caching `index.html` aggressively be dangerous for a single-page app?
